@@ -1,0 +1,20 @@
+{
+  "name": "gmail-mcp-server",
+  "version": "1.0.0",
+  "description": "Gmail MCP Server for sending emails",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "nodemailer": "^6.9.8",
+    "googleapis": "^132.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["mcp", "gmail", "email", "automation"],
+  "author": "Yasir Aquil",
+  "license": "MIT"
+}
