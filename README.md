@@ -53,8 +53,8 @@ Add this to your Claude MCP configuration file:
   "mcpServers": {
     "gmail": {
       "command": "node",
-      "args": ["/Users/yasir/Desktop/gmail-mcp-server/index.js"],
-      "cwd": "/Users/yasir/Desktop/gmail-mcp-server"
+      "args": ["/Users/user/Desktop/gmail-mcp/index.js"],
+      "cwd": "/Users/user/Desktop/gmail-mcp"
     }
   }
 }
